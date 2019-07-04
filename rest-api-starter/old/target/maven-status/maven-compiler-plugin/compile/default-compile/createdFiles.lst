@@ -1,0 +1,7 @@
+br\com\guedesdesouza\myapp\mapper\serializer\LocalDateTimeSerializer.class
+br\com\guedesdesouza\myapp\config\AppWebConfig.class
+br\com\guedesdesouza\myapp\mapper\AppDateModule.class
+br\com\guedesdesouza\myapp\App.class
+br\com\guedesdesouza\myapp\mapper\deserializer\LocalDateTimeDeserializer.class
+br\com\guedesdesouza\myapp\resource\EchoResouce.class
+br\com\guedesdesouza\myapp\mapper\AppObjectMapper.class

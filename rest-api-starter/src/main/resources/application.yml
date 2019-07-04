@@ -1,0 +1,92 @@
+# config context path to "/" by setting an empty string
+server:
+  contextPath:
+
+# JACKSON
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
+jwt:
+  header: Authorization
+  secret: mySecret
+  expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
+
+#logging:
+#  level:
+#    org.springframework:
+#      security: DEBUG
+
+
+
+#info:
+#  app:
+#    name: MyApp
+#    description: Boilerplate para API Rest em Java
+#
+#server:
+#  contextPath:
+#  port: 8443
+# # ssl:
+# #   key-store: demo.jks
+# #   key-store-password: demo
+# #   key-password: password
+#  compression:
+#    enabled: true
+#    mime-types: application/json, application/xml, text/html, text/xml, text/plain, text/css
+#
+#jwt:
+#  header: Authorization
+#  secret: mySecret
+#  expiration: 604800
+#  route:
+#    authentication:
+#      path: auth
+#      refresh: refresh
+#
+#shell:
+#  auth:
+#    simple:
+#      user:
+#        name: shell
+#        password: shell
+#
+#management:
+#  context-path: /manage
+#
+#endpoints:
+#  enabled : true
+#
+#spring:
+#  jpa:
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: none # validate | update | create | create-drop
+#    properties:
+#      hibernate:
+#        show_sql: false
+#        format_sql: true
+##        cache.generate_statistics: true
+##        cache.use_structured_entries: true
+##        cache.use_second_level_cache: true
+##        cache.use_query_cache: false
+##        cache.region.factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
+#  datasource:
+#    url: jdbc:h2:mem:test;MODE=PostgreSQL;DB_CLOSE_ON_EXIT=FALSE}
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2:
+#    console:
+#      enabled: true
+#  jackson:
+#    serialization:
+#      INDENT_OUTPUT: true
+#
+#liquibase:
+#  changeLog: classpath:/db/changelog/db.changelog-master.yaml
