@@ -1,4 +1,4 @@
-package br.com.guedesdesouza.labsjava.quarkus.fidelidade;
+package br.com.guedesdesouza.javalabs.quarkus.fidelidade;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

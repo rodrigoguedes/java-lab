@@ -1,4 +1,4 @@
-package br.com.guedesdesouza.labsjava.quarkus.fidelidade;
+package br.com.guedesdesouza.javalabs.quarkus.fidelidade;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
